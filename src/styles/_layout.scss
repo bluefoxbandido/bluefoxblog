@@ -16,14 +16,55 @@
 
     .middlebar {
       display: grid;
-      justify-content: center;
+      grid-template-columns: 8fr 1fr;
       align-items: center;
-    }
-
-    .right-sidebar {
-      display: grid;
-      justify-content: center;
+      margin: 2%;
+      color: white;
+      justify-items: center;
       align-content: center;
+
+      .navbar {
+        display: flex;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 15vw;
+
+        ul {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          list-style: none;
+          height: 100%;
+          padding: 0;
+
+          li {
+            display: flex;
+            height: 15vh;
+            text-decoration: none;
+
+            .active {
+              color: red;
+            }
+  
+            a {
+              display: flex;
+              height: 100%;
+              width: 100%;
+              font-size: xx-large;
+              color: black;
+              text-decoration: none;
+
+              :hover {
+                color: white;
+              }
+
+            }
+          }
+        }
+      }
     }
   }
 }

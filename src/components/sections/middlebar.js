@@ -2,34 +2,63 @@ import React, { Component } from 'react';
 import {
     BrowserRouter as Router,
     Switch,
-    Route
-  } from "react-router-dom";
+    Route,
+    NavLink
+} from "react-router-dom";
 
-  import About from "../views/About";
-  import Home from "../views/Home";
-  import Blog from "../views/Blog";
-  import Contact from "../views/Contact";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome, faConciergeBell, faChalkboardTeacher, faBlog } from '@fortawesome/free-solid-svg-icons';
+
+import About from "../views/About";
+import Home from "../views/Home";
+import Blog from "../views/Blog";
+import Contact from "../views/Contact";
+
 
 export default class Middlebar extends Component {
     render() {
         return (
-            <div className="middlebar col-md-7">
+            <div className="middlebar col-md-9">
                 <Router>
-                    <Switch>
+                    <Switch className="content">
                         <Route path="/about">
-                        <About />
+                            <About />
                         </Route>
                         <Route path="/contact">
-                        <Contact />
+                            <Contact />
                         </Route>
                         <Route path="/blog">
                             <Blog />
                         </Route>
                         <Route path="/">
-                        <Home />
+                            <Home />
                         </Route>
                     </Switch>
-                </Router>        
+                    <nav class="navbar right-sidebar bg-primary">
+                        <ul>
+                            <li>
+                                <NavLink exact to="/" activeClassName="active">
+                                    <FontAwesomeIcon icon={faHome}/>     
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/about" activeClassName="active">
+                                    <FontAwesomeIcon icon={faChalkboardTeacher}/>
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/blog" activeClassName="active">
+                                    <FontAwesomeIcon icon={faBlog}/>
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/contact" activeClassName="active">
+                                    <FontAwesomeIcon icon={faConciergeBell}/>
+                                </NavLink>
+                            </li>
+                        </ul>
+                    </nav>
+                </Router>
             </div>
         )
     }

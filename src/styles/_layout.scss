@@ -1,0 +1,29 @@
+.app-wrapper {
+  padding: 0;
+  height: 100vh;
+
+  .app {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+
+    .left-sidebar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .middlebar {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .right-sidebar {
+      display: grid;
+      justify-content: center;
+      align-content: center;
+    }
+  }
+}

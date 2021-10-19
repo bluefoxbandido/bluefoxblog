@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
-export default class Left_Sidebar extends Component {
+export default class LeftSidebar extends Component {
     render() {
         return (
-            <div>
+            <div className="left-sidebar bg-primary col-md-3">
                 Left Sidebar
             </div>
         )

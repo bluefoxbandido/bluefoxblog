@@ -1,6 +1,10 @@
 .app-wrapper {
   padding: 0;
-  height: 100vh;
+  height: 100%;
+
+  @media(min-width: 768px){
+    height: 100vh;
+  }
 
   .app {
     display: flex;
@@ -28,14 +32,20 @@
       justify-items: center;
       justify-content: center;
       color: white;
+      width: 100vw;
+
+      @media(min-width: 768px) {
+        width: 75vw;
+      }
 
       .navbar {
         display: flex;
         color: black;
+        justify-self: flex-end;
         justify-content: center;
         align-items: center;
         height: 100%;
-        width: 15vw;
+        width: 10vw;
         padding: 0;
         margin-top: 0;
         box-shadow: -6px 3px 10px 0px rgba(0,0,0,0.46);
@@ -58,6 +68,10 @@
 
             .active {
               color: red;
+              
+              :hover {
+                color: black;
+              }
             }
   
             a {

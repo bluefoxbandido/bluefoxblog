@@ -2,7 +2,7 @@
   padding: 0;
   height: 100%;
 
-  @media(min-width: 768px){
+  @media (min-width: 768px) {
     height: 100vh;
   }
 
@@ -16,11 +16,12 @@
       display: none;
       justify-content: center;
       align-items: center;
-      box-shadow: 6px 3px 10px 0px rgba(0,0,0,0.46);
--webkit-box-shadow: 6px 3px 10px 0px rgba(0,0,0,0.46);
--moz-box-shadow: 6px 3px 10px 0px rgba(0,0,0,0.46);
+      background-color: darkorange;
+      box-shadow: 6px 3px 10px 0px rgba(0, 0, 0, 0.46);
+      -webkit-box-shadow: 6px 3px 10px 0px rgba(0, 0, 0, 0.46);
+      -moz-box-shadow: 6px 3px 10px 0px rgba(0, 0, 0, 0.46);
 
-      @media(min-width: 768px) {
+      @media (min-width: 768px) {
         display: flex;
       }
     }
@@ -34,12 +35,13 @@
       color: white;
       width: 100vw;
 
-      @media(min-width: 768px) {
+      @media (min-width: 768px) {
         width: 75vw;
       }
 
       .navbar {
         display: flex;
+        flex-direction: column;
         color: black;
         justify-self: flex-end;
         justify-content: center;
@@ -48,17 +50,22 @@
         width: 10vw;
         padding: 0;
         margin-top: 0;
-        box-shadow: -6px 3px 10px 0px rgba(0,0,0,0.46);
-        -webkit-box-shadow: -6px 3px 10px 0px rgba(0,0,0,0.46);
-        -moz-box-shadow: -6px 3px 10px 0px rgba(0,0,0,0.46);
+        box-shadow: -6px 3px 10px 0px rgba(0, 0, 0, 0.46);
+        -webkit-box-shadow: -6px 3px 10px 0px rgba(0, 0, 0, 0.46);
+        -moz-box-shadow: -6px 3px 10px 0px rgba(0, 0, 0, 0.46);
 
+        span {
+          color: white;
+          font-style: italic;
+          font-weight: bolder;
+        }
         ul {
           display: flex;
           flex-direction: column;
           align-items: center;
           justify-content: center;
           list-style: none;
-          height: 100%;
+          height: 80%;
           padding: 0;
 
           li {
@@ -68,12 +75,12 @@
 
             .active {
               color: red;
-              
+
               :hover {
                 color: black;
               }
             }
-  
+
             a {
               display: flex;
               height: 100%;
@@ -85,7 +92,6 @@
               :hover {
                 color: white;
               }
-
             }
           }
         }

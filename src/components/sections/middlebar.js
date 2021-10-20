@@ -57,6 +57,7 @@ export default class Middlebar extends Component {
                                 </NavLink>
                             </li>
                         </ul>
+                        <span>{`bf.dev 2021`}</span>
                     </nav>
                 </Router>
             </div>

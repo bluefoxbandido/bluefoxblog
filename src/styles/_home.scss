@@ -63,17 +63,23 @@
             background-color: $secondary;
             justify-content: center;
             align-items: center;
+            
 
             .card-body {
                 display: flex;
                 flex-direction: column-reverse;
                 justify-content: space-between;
+                color: white;
+                font-style: oblique;
 
                 .card-title {
                     display: flex;
                     align-self: center;
                     justify-self: end;
                     padding-bottom: 20%;
+                    color: gold;
+                    font-style: normal;   
+                    text-decoration-line: overline;
                 }
             }
         }

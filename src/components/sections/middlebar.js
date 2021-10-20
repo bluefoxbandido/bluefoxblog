@@ -34,7 +34,7 @@ export default class Middlebar extends Component {
                             <Home />
                         </Route>
                     </Switch>
-                    <nav class="navbar right-sidebar bg-primary">
+                    <nav class="navbar right-sidebar bg-danger">
                         <ul>
                             <li>
                                 <NavLink exact to="/" activeClassName="active">
@@ -57,7 +57,7 @@ export default class Middlebar extends Component {
                                 </NavLink>
                             </li>
                         </ul>
-                        <span>{`bf.dev 2021`}</span>
+                        <span className="copyright">{`bf.dev 2021`}</span>
                     </nav>
                 </Router>
             </div>

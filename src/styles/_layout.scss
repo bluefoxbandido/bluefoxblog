@@ -35,8 +35,8 @@
         justify-self: flex-start;
 
         img {
-          -webkit-box-shadow: 6px 3px 10px 0px rgba(0, 0, 0, 0.46);
-          -moz-box-shadow: 6px 3px 10px 0px rgba(0, 0, 0, 0.46);
+          -webkit-box-shadow: 1px 1px 16px 5px #000000; 
+          box-shadow: 1px 1px 16px 5px #000000;
         }
 
       }
@@ -48,6 +48,8 @@
         padding-right: 10%;
         align-content: center;
         justify-content: center;
+        font-size: 80%;
+        
 
         p {
           display: flex;
@@ -58,7 +60,9 @@
 
           .author {
             margin-top: 10%;
-            color: goldenrod;
+            color: rgba(242,203,25,255);
+            padding-top: 2%;
+            border-top: 2px solid rgba(242,203,25,255);
           }
         }
         
@@ -77,8 +81,8 @@
         padding-right: 5%;
         padding-bottom: 5%;
         width: 100%;
-        -webkit-box-shadow: 6px 3px 10px 0px rgba(0, 0, 0, 0.46);
-        -moz-box-shadow: 6px 3px 10px 0px rgba(0, 0, 0, 0.46);
+        -webkit-box-shadow: 1px 1px 16px 5px #000000; 
+        box-shadow: 1px 1px 16px 5px #000000;
 
 
         a {
@@ -89,6 +93,12 @@
           margin-top: 5%;
           border-radius: 1rem;
           justify-content: center;
+          text-decoration: none;
+
+          &:hover {
+            border: 2px solid white;
+            margin-top: calc(5% - 2px);
+          }
         }
       }
     }

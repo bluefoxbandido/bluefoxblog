@@ -22,10 +22,10 @@ export default class LeftSidebar extends Component {
                     </p>
                 </div>
                 <div className="contactLinks">
-                    <a href="#" className="bg-danger">link at link dot link</a>
-                    <a href="#" className="bg-success">link at link dot link</a>
-                    <a href="#" className="bg-dark">link at link dot link</a>
-                    <a href="#" className="bg-primary">link at link dot link</a>
+                    <a href="#" className="bg-danger">LinkedIn</a>
+                    <a href="#" className="bg-success">Email</a>
+                    <a href="#" className="bg-dark">Github</a>
+                    <a href="#" className="bg-primary">Facebook</a>
                 </div>
             </div>
         )

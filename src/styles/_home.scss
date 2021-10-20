@@ -64,6 +64,13 @@
             justify-content: center;
             align-items: center;
             
+            &:hover {
+                border: 2px solid goldenrod;
+                background-color: $danger;
+                margin: calc(10% - 1px);
+                // transform: rotateX(360deg);
+                // transition-duration: 300ms;
+            }
 
             .card-body {
                 display: flex;

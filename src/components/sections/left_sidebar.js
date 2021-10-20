@@ -9,10 +9,16 @@ export default class LeftSidebar extends Component {
                 </div>
                 <div className="coolLanguageArea">
                     <p>
-                        ;alkjd;flakjsdl;kfj;alksdjf;lakjsd;lfkj
-                        a;lkdjf;alksjdf;lakjsdflkjas;ldkjf;alksjdf
-                        a;'lkjsdf'lakjsdf'lakjsdfl'kjas'dfklja'slkjdf
-                        ;alskjdf'alkjsdf'alkjsdf'lkajsdfjkla'lskdj
+                        <span>Nature's first green is gold,</span>
+                        <span>Her hardest hue to hold.</span>
+                        <span>Her early leaf's a flower;</span>
+                        <span>But only so an hour.</span>
+                        <span>Then leaf subsides to leaf.</span>
+                        <span>So Eden sank to grief,</span>
+                        <span>So dawn goes down to day.</span>
+                        <span>Nothing gold can stay.</span>
+                        
+                        <span className="author">-Robert Frost</span>
                     </p>
                 </div>
                 <div className="contactLinks">

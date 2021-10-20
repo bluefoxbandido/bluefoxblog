@@ -51,8 +51,15 @@
 
         p {
           display: flex;
+          flex-direction: column;
           justify-content: center;
           align-content: center;
+          font-style: italic;
+
+          .author {
+            margin-top: 10%;
+            color: goldenrod;
+          }
         }
         
       }
@@ -65,7 +72,7 @@
         justify-self: baseline;
         background-color: rgba(242,203,25,255);
         color: black;
-        margin-top: 20%;
+        margin-top: 10%;
         padding-left: 5%;
         padding-right: 5%;
         padding-bottom: 5%;

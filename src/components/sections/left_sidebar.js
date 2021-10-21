@@ -23,7 +23,7 @@ export default class LeftSidebar extends Component {
                 </div>
                 <div className="contactLinks">
                     <a href="#" className="bg-danger">LinkedIn</a>
-                    <a href="#" className="bg-success">Email</a>
+                    <a href="#" className="bg-success">Xbox</a>
                     <a href="#" className="bg-dark">Github</a>
                     <a href="#" className="bg-primary">Facebook</a>
                 </div>

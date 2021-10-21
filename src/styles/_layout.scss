@@ -94,6 +94,8 @@
           border-radius: 1rem;
           justify-content: center;
           text-decoration: none;
+          -webkit-box-shadow: 1px 4px 10px -2px #000000; 
+          box-shadow: 1px 4px 10px -2px #000000;
 
           &:hover {
             border: 2px solid white;

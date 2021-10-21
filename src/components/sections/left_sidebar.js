@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 export default class LeftSidebar extends Component {
     render() {
+        let github = "https://github.com/bluefoxbandido/";
         return (
             <div className="left-sidebar col-md-3">
                 <div className="logo">
@@ -24,7 +25,7 @@ export default class LeftSidebar extends Component {
                 <div className="contactLinks">
                     <a href="#" className="bg-danger">LinkedIn</a>
                     <a href="#" className="bg-success">Xbox</a>
-                    <a href="#" className="bg-dark">Github</a>
+                    <a href="https://github.com/bluefoxbandido/" className="bg-dark">Github</a>
                     <a href="#" className="bg-primary">Facebook</a>
                 </div>
             </div>

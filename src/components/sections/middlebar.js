@@ -6,6 +6,8 @@ import {
     NavLink
 } from "react-router-dom";
 
+import {browserHistory} from "react-router-dom";
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faConciergeBell, faChalkboardTeacher, faBlog } from '@fortawesome/free-solid-svg-icons';
 
@@ -17,6 +19,7 @@ import Contact from "../views/Contact";
 
 export default class Middlebar extends Component {
     render() {
+
         return (
             <div className="middlebar col-md-9">
                 <Router>
@@ -34,7 +37,7 @@ export default class Middlebar extends Component {
                             <Home />
                         </Route>
                     </Switch>
-                    <nav class="navbar right-sidebar bg-danger">
+                    <nav className="navbar right-sidebar bg-danger">
                         <ul>
                             <li>
                                 <NavLink exact to="/" activeClassName="active">

@@ -1,0 +1,31 @@
+.about {
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin-left: 5%;
+
+    h6 {
+        padding-left: 1%;
+        padding-top: 2%;
+        color: white;
+        font-style: italic;
+        text-shadow: 3px 4px 6px rgba(0, 0, 0, 1);
+    }
+
+    span {
+        text-shadow: 3px 4px 6px rgba(0, 0, 0, 0.63);
+    }
+
+    .blue {
+        color: $primary;
+    }
+
+    .red {
+        color: $danger;
+    }
+
+    .white {
+        color: rgba(242,203,25,255);
+    }
+}

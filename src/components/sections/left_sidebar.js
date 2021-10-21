@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 
 export default class LeftSidebar extends Component {
     render() {
-        let github = "https://github.com/bluefoxbandido/";
         return (
             <div className="left-sidebar col-md-3">
                 <div className="logo">
@@ -23,10 +22,10 @@ export default class LeftSidebar extends Component {
                     </p>
                 </div>
                 <div className="contactLinks">
-                    <a href="#" className="bg-danger">LinkedIn</a>
-                    <a href="#" className="bg-success">Xbox</a>
+                    <a href="https://www.linkedin.com/in/adam-parker-developer/" className="bg-danger">LinkedIn</a>
+                    <a href="https://account.xbox.com/en-us/profile?gamertag=BlueFoxZero1145" className="bg-success">Xbox</a>
                     <a href="https://github.com/bluefoxbandido/" className="bg-dark">Github</a>
-                    <a href="#" className="bg-primary">Facebook</a>
+                    <a href="https://www.facebook.com/profile.php?id=100073988864209" className="bg-primary">Facebook</a>
                 </div>
             </div>
         )

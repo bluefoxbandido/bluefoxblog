@@ -37,6 +37,7 @@
     padding-right: 5%;
     padding-top: 5%;
     background-color: rgba(1, 1, 1, 0.2);
+    border-radius: 1rem;
     height: 100%;
     width: 100%;
 
@@ -71,6 +72,7 @@
             justify-content: center;
             align-items: center;
             height: 100%;
+            border: 2px solid rgba(0, 0, 0, 0);
             
             &:hover {
                 border: 2px solid goldenrod;
@@ -90,10 +92,16 @@
                     display: flex;
                     align-self: center;
                     justify-self: end;
-                    padding-bottom: 20%;
+                    padding: 5% 0 7% 0;
                     color: gold;
-                    font-style: normal;   
-                    text-decoration-line: overline;
+                    font-style: normal;  
+                    border-top: 2px solid gold;
+                    border-bottom: 2px solid gold;
+
+                    &:hover {
+                        border: none;
+                        padding-bottom: calc(7% + 2px);
+                    }
                 }
             }
         }

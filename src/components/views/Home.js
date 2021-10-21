@@ -22,56 +22,56 @@ export default function Home() {
                             <div className="carousel-item active">
                                 <div className="card">
                                     <div className="card-body">
-                                        <h5 className="card-title">One</h5>
-                                        <p className="card-text">Brief description of card in paragraph form.</p>
+                                        <h5 className="card-title">Front End Design</h5>
+                                        <p className="card-text">Responsive design structure using React and Bootstrap.</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <div className="card">
                                     <div className="card-body">
-                                        <h5 className="card-title">Two</h5>
-                                        <p className="card-text">Brief description of card in paragraph form.</p>
+                                        <h5 className="card-title">Back End Design</h5>
+                                        <p className="card-text">API built using Express.js, utilizing MongoDB to create a complementary database object. Built to be consumed by front end products.</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <div className="card">
                                     <div className="card-body">
-                                        <h5 className="card-title">Three</h5>
-                                        <p className="card-text">Brief description of card in paragraph form.</p>
+                                        <h5 className="card-title">Single Page Application</h5>
+                                        <p className="card-text">Lightweight, all inclusive web application. Perfect for small projects!</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <div className="card">
                                     <div className="card-body">
-                                        <h5 className="card-title">Four</h5>
-                                        <p className="card-text">Brief description of card in paragraph form.</p>
+                                        <h5 className="card-title">Wordpress Design</h5>
+                                        <p className="card-text">Website built using the Wordpress design system, generally marketed towards eCommerce web applications.</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <div className="card">
                                     <div className="card-body">
-                                        <h5 className="card-title">Five</h5>
-                                        <p className="card-text">Brief description of card in paragraph form.</p>
+                                        <h5 className="card-title">Mobile Development</h5>
+                                        <p className="card-text">Beautiful mobile application built using React Native.</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <div className="card">
                                     <div className="card-body">
-                                        <h5 className="card-title">Six</h5>
-                                        <p className="card-text">Brief description of card in paragraph form.</p>
+                                        <h5 className="card-title">Web to App</h5>
+                                        <p className="card-text">Upgrade outdated web applications to a more mobile centric society.</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <div className="card">
                                     <div className="card-body">
-                                        <h5 className="card-title">Seven</h5>
-                                        <p className="card-text">Brief description of card in paragraph form.</p>
+                                        <h5 className="card-title">Gaming Partner</h5>
+                                        <p className="card-text">Complimentary party addition and cooperative team mate. Support roles preferred.</p>
                                     </div>
                                 </div>
                             </div>

@@ -1,8 +1,8 @@
-.about {
+.contact {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    
     height: 100%;
     width: 100%;
     margin-left: 5%;
@@ -31,19 +31,24 @@
         color: rgba(242,203,25,255);
     }
 
-    .bio {
+    .form-floating {
         display: flex;
-        margin-left: 2%;
-        margin-bottom: 0;
-        margin-top: 5%;
-        padding-bottom: 10%;
-        justify-self: center;
-        align-self: center;
-        overflow-y: scroll;
-        background-color: white;
-        height: 70%;
-        width: 90%;
-        background-color: rgba(150,150,150,0);
-        border-radius: .4rem;
+        align-self: flex-start;
+        width: 85%;
+        
+
+        input[type="text"] {
+            width: 35%;
+            background-color:rgba(0, 0, 0, 0.63);
+            color: whitesmoke;
+        }
+
+        textArea {
+            width: 100%;
+            background-color: rgba(0,0,0, 0.63);
+            color: whitesmoke;
+            height: 60vh;
+            resize: none;
+        }
     }
 }

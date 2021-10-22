@@ -1,14 +1,13 @@
-# Contents
++ Contents
+   # Introduction
+   # Requirements
+   # Installation
+   # Configuration
+   # Maintainer
+   # External Sources and References
+   # Developer Comments
 
-    -Introduction
-    -Requirements
-    -Installation
-    -Configuration
-    -Maintainer
-    -External Sources and References
-    -Developer Comments
-
-# Introduction
+- Introduction
 
     This application was designed with Bootstrap and React to operate as a creative web
     development blog. It was built using JavaScript and SCSS, and will consume an API
@@ -23,15 +22,15 @@
     problem, then communication should continue on the Blue Fox Blog Facebook page. Link
     included in references. 
 
-# Requirements
+- Requirements
 
-# Installation
+- Installation
 
-# Configuration
+- Configuration
 
-# Maintainer
+- Maintainer
 
-# External Sources and References
+- External Sources and References
 
  - BootSwatch
  - Cyborg Swatch
@@ -45,7 +44,7 @@
   * Blue Fox Blog Facebook Page
     - https://www.facebook.com/profile.php?id=100073988864209
 
-# Developer Comments
+- Developer Comments
  + 
  - 
  * 

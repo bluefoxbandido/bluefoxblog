@@ -22,13 +22,13 @@
     problem, then communication should continue on the Blue Fox Blog Facebook page. Link
     included in references. 
 
-- Requirements
+# Requirements
 
-- Installation
+# Installation
 
-- Configuration
+# Configuration
 
-- Maintainer
+# Maintainer
 
 # External Sources and References
 

@@ -34,9 +34,9 @@
     above the source files on github. On a terminal, navigate to an empty folder where
     you will keep the files. Run "git clone (paste link here)" and press enter.
 
-    Afterwards, navigate into the project folder. Run npm start from the terminal. The
-    application should open in a new window. If not, navigate to localhost:8080 in a web
-    browser.
+    Afterwards, navigate into the project folder. Run npm install, and then npm start from
+    the terminal. The application should open in a new window. If not, navigate to localhost:8080 
+    in a web browser.
 
 # Configuration
 

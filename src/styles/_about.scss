@@ -9,7 +9,7 @@
     h6 {
         display: flex;
         align-self: flex-end;
-        padding-right: 20%;
+        padding-right: 22.08%;
         padding-left: 1%;
         padding-top: 5%;
         color: rgba(242,203,25,255);
@@ -45,8 +45,9 @@
         display: flex;
         flex-direction: column;
         align-content: center;
-        height: 100%;
+        height: 99%;
         width: 100%;
+        border-right: 2px solid white;
 
         .avatar {
             display: flex;
@@ -58,6 +59,7 @@
                 height: 175px;
                 margin-top: 15%;
                 border-radius: 100rem;
+                border: 2px solid rgba(242,203,25,255);
             }
         }
 

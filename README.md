@@ -7,7 +7,7 @@
    + External Sources and References
    + Developer Comments
 
-- Introduction
+# Introduction
 
     This application was designed with Bootstrap and React to operate as a creative web
     development blog. It was built using JavaScript and SCSS, and will consume an API
@@ -30,7 +30,7 @@
 
 - Maintainer
 
-- External Sources and References
+# External Sources and References
 
  - BootSwatch
  - Cyborg Swatch
@@ -44,7 +44,7 @@
   * Blue Fox Blog Facebook Page
     - https://www.facebook.com/profile.php?id=100073988864209
 
-- Developer Comments
+# Developer Comments
  + 
  - 
  * 

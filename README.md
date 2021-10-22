@@ -1,13 +1,13 @@
-+ Contents
-   # Introduction
-   # Requirements
-   # Installation
-   # Configuration
-   # Maintainer
-   # External Sources and References
-   # Developer Comments
+# Contents
+   + Introduction
+   + Requirements
+   + Installation
+   + Configuration
+   + Maintainer
+   + External Sources and References
+   + Developer Comments
 
-# Introduction
+- Introduction
 
     This application was designed with Bootstrap and React to operate as a creative web
     development blog. It was built using JavaScript and SCSS, and will consume an API

@@ -41,6 +41,10 @@
             width: 35%;
             background-color:rgba(0, 0, 0, 0.63);
             color: whitesmoke;
+
+            @media(max-width: 678px){
+                width: 175px;
+            }
         }
 
         textArea {

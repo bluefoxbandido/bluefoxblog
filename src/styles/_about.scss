@@ -49,6 +49,10 @@
         width: 100%;
         border-right: 2px solid white;
 
+        @media(max-width: 625px){
+            display: none;
+        }
+
         .avatar {
             display: flex;
             justify-content: center;
@@ -60,6 +64,10 @@
                 margin-top: 15%;
                 border-radius: 100rem;
                 border: 2px solid rgba(242,203,25,255);
+
+                @media(max-width: 900px){
+                    height: 125px;
+                }   
             }
         }
 
@@ -72,6 +80,10 @@
             align-self: center;
             font-style: italic;
             font-size: 1.75em;
+
+            @media(max-width: 900px){
+                font-size: 1.25rem;
+            }
         }
     }
 
@@ -90,5 +102,9 @@
         width: 35vw;
         background-color: rgba(150,150,150,0);
         border-radius: .4rem;
+
+        @media(max-width: 625px){
+            width: 80vw;
+        }
     }
 }

@@ -1,4 +1,5 @@
 # Contents
+
    + Introduction
    + Requirements
    + Installation
@@ -24,7 +25,18 @@
 
 # Requirements
 
+    NPM is required to clone this application.
+
 # Installation
+
+    To install this application to run from your machine, first make sure you have Node
+    Package Manager installed. Then copy the repository link from the green Code button
+    above the source files on github. On a terminal, navigate to an empty folder where
+    you will keep the files. Run "git clone (paste link here)" and press enter.
+
+    Afterwards, navigate into the project folder. Run npm start from the terminal. The
+    application should open in a new window. If not, navigate to localhost:8080 in a web
+    browser.
 
 # Configuration
 
@@ -44,7 +56,16 @@
   * Blue Fox Blog Facebook Page
     - https://www.facebook.com/profile.php?id=100073988864209
 
+  * LinkedIn Profile
+    - 
+
+  * Github Profile
+    - 
+
+  * Xbox Gamertag Profile
+    - 
+
 # Developer Comments
  + 
- - 
- * 
+  - 
+   * 

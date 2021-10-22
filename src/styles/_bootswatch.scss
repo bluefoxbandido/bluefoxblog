@@ -1,12 +1,3 @@
-// Cyborg 5.1.3
-// Bootswatch
-
-$theme: "cyborg" !default;
-
-//
-// Color system
-//
-
 $white:    #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
@@ -25,13 +16,13 @@ $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
 $red:     #c00 !default;
 $orange:  #fd7e14 !default;
-$yellow:  #f80 !default;
+$yellow:  rgba(242, 203, 25, 255) !default;
 $green:   #77b300 !default;
 $teal:    #20c997 !default;
 $cyan:    #93c !default;
 
 $primary:       $blue !default;
-$secondary:     $gray-600 !default;
+$secondary:     $red !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;

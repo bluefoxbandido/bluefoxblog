@@ -45,13 +45,13 @@ export default class Middlebar extends Component {
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to="/about" activeClassName="active">
-                                    <FontAwesomeIcon icon={faChalkboardTeacher}/>
+                                <NavLink to="/blog" activeClassName="active">
+                                    <FontAwesomeIcon icon={faBlog}/>
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to="/blog" activeClassName="active">
-                                    <FontAwesomeIcon icon={faBlog}/>
+                                <NavLink to="/about" activeClassName="active">
+                                    <FontAwesomeIcon icon={faChalkboardTeacher}/>
                                 </NavLink>
                             </li>
                             <li>

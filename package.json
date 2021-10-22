@@ -121,7 +121,6 @@
     "webpack-dev-server": "^4.3.1"
   },
   "scripts": {
-    "watch": "webpack-dev-server --hot --progress --mode development",
     "webpack": "webpack",
     "start": "webpack serve",
     "test": "echo \"Error: no test specified\" && exit 1"

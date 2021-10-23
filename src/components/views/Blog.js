@@ -14,6 +14,9 @@ export default class Blog extends Component {
                     <span className="blue">{`}`}</span>
                 </h5>
                 <h6 className="h6">Blog centered around creative writing.</h6>
+                <div className="blog content">
+
+                </div>
             </div>
         )
     }

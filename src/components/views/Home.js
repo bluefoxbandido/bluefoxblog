@@ -17,7 +17,6 @@ export default function Home() {
                 <h6 className="h6">Creative Writing and Web Development Portfolio</h6>
                 <div className="homeCards">
                     <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-
                         <div className="carousel-inner">
                             <div className="carousel-item active">
                                 <div className="card">

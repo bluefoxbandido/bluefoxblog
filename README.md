@@ -8,6 +8,7 @@
    + External Sources and References
    + Developer Comments
 
+
 # Introduction
 
     This application was designed with Bootstrap and React to operate as a creative web
@@ -23,9 +24,11 @@
     problem, then communication should continue on the Blue Fox Blog Facebook page. Link
     included in references. 
 
+
 # Requirements
 
-    NPM is required to clone this application.
+    Node Package Manager is required to clone this application.
+
 
 # Installation
 
@@ -38,9 +41,18 @@
     the terminal. The application should open in a new window. If not, navigate to localhost:8080 
     in a web browser.
 
+
 # Configuration
 
+  - This application is configured to act as a standalone front end application, and will
+    consume and API with it's own domain and graphic user interface. This application will
+    be able to read database entries, but will not create, update, or delete records.
+
+
 # Maintainer
+
+  Adam Parker, Blue Fox Coding
+
 
 # External Sources and References
 
@@ -52,7 +64,8 @@
   + React
   + Bootstrap
   + Dotenv
-  + API.BlueFox.Dev
+  + API.BlueFox.Dev (ToDo)
+  + Webpack
 
   * Blue Fox Blog Facebook Page
     - https://www.facebook.com/profile.php?id=100073988864209
@@ -66,7 +79,12 @@
   * Xbox Gamertag Profile
     - https://account.xbox.com/en-us/profile?gamertag=BlueFoxZero1145
 
+
 # Developer Comments
- + 
-  - 
-   * 
+
+ + To Do:
+  - Configure Dotenv and Development Server after constructing API.
+   * https://trekinbami.medium.com/using-environment-variables-in-react-6b0a99d83cf5
+   * Source: Sam Pakvis, May 25, 2018.
+
+  - Design Blog Page to consume API.

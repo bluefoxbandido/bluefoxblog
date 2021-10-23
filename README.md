@@ -51,19 +51,20 @@
 
   + React
   + Bootstrap
+  + Dotenv
   + API.BlueFox.Dev
 
   * Blue Fox Blog Facebook Page
     - https://www.facebook.com/profile.php?id=100073988864209
 
   * LinkedIn Profile
-    - 
+    - https://www.linkedin.com/in/adam-parker-developer/
 
   * Github Profile
-    - 
+    - https://github.com/bluefoxbandido
 
   * Xbox Gamertag Profile
-    - 
+    - https://account.xbox.com/en-us/profile?gamertag=BlueFoxZero1145
 
 # Developer Comments
  + 

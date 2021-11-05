@@ -6,7 +6,6 @@ const Blog = () => {
 
     useEffect(() => {
         fetchBlogs()
-        console.log(blogs)
     }, [])
 
     const fetchBlogs = () => {
@@ -34,7 +33,13 @@ const Blog = () => {
           <h6 className="h6">Blog centered around creative writing.</h6>
           <div className="blog content">
               <div className="blog-container">
-                  {blogs.map((blog) =><div key={blog._id}>{blog.title}</div>)}
+                  {blogs.map(blog => 
+                      <div className="blog" key={blog._id}>
+                          <h2>{blog.title}</h2>
+                          <h4>{blog.date}</h4>
+                          <p>{blog.blogBody}</p>
+                      </div>
+                  )}
               </div>
           </div>
         </div>
